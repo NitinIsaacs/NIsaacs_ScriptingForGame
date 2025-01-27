@@ -511,6 +511,7 @@ GameObject:
   - component: {fileID: 588501267}
   - component: {fileID: 588501266}
   - component: {fileID: 588501265}
+  - component: {fileID: 588501271}
   - component: {fileID: 588501270}
   m_Layer: 0
   m_Name: Capsule
@@ -531,9 +532,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed6a8b05d29a01347ab8e281483cc068, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingPosition: {x: 0, y: 0, z: 0}
-  moveDirection: {x: 1, y: 0, z: 0}
-  speed: 5
 --- !u!136 &588501266
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -641,6 +639,21 @@ MonoBehaviour:
   chest: bob
   intro: Hello World!
   outro: bye
+--- !u!114 &588501271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588501264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3657c7c052390f94f883f73a7e54227e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingPosition: {x: 0, y: 0, z: 0}
+  moveDirection: {x: 0, y: 0, z: 0}
+  speed: 0
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1079,9 +1092,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed6a8b05d29a01347ab8e281483cc068, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingPosition: {x: 0, y: 0, z: 0}
-  moveDirection: {x: 0, y: 0, z: 0}
-  speed: 0
 --- !u!4 &2048607793
 Transform:
   m_ObjectHideFlags: 0
